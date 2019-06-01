@@ -3,7 +3,7 @@ package com.loiane.cursojava.aula44;
 public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstimacao {
 
 	private int tamanho;
-	private String raça;
+	private String racao;
 	
 	public int getTamanho() {
 		return tamanho;
@@ -11,17 +11,19 @@ public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstim
 	public void setTamanho(int tamanho) {
 		this.tamanho = tamanho;
 	}
-	public String getRaça() {
-		return raça;
+	
+	public String getRacao() {
+		return racao;
 	}
-	public void setRaça(String raça) {
-		this.raça = raça;
+	public void setRacao(String racao) {
+		this.racao = racao;
 	}
 	@Override
 	public void amamentar() {
 		// TODO Auto-generated method stub
 		
 	}
+	
 	@Override
 	public void emitirSom() {
 		// TODO Auto-generated method stub

@@ -11,6 +11,7 @@ public class Teste {
 		pessoa.setEndereco("Rua 1, num 1");
 		aluno.setEndereco("Rua 2, num 2");
 		professor.setEndereco("Rua 3, num 3");
+		
 		 
 		System.out.println(pessoa.obterEtiquetaEndereco());
 		System.out.println(aluno.obterEtiquetaEndereco());

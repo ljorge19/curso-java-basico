@@ -4,7 +4,14 @@ public class Professor extends Pessoa {
 
 	private double salario;
 	private String nomeCurso;
+	private String xxxxxxxxxxxxxxxxxxxxxxx;
 	
+	public String getXxxxxxxxxxxxxxxxxxxxxxx() {
+		return xxxxxxxxxxxxxxxxxxxxxxx;
+	}
+	public void setXxxxxxxxxxxxxxxxxxxxxxx(String xxxxxxxxxxxxxxxxxxxxxxx) {
+		this.xxxxxxxxxxxxxxxxxxxxxxx = xxxxxxxxxxxxxxxxxxxxxxx;
+	}
 	public double getSalario() {
 		return salario;
 	}
