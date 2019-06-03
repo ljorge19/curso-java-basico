@@ -8,8 +8,8 @@ public class Gato extends Mamifero implements AnimalDomesticado, AnimalEstimacao
 		return raca;
 	}
 
-	public void setRaca(String raça) {
-		this.raca = raça;
+	public void setRaca(String raca) {
+		this.raca = raca;
 	}
 
 	@Override

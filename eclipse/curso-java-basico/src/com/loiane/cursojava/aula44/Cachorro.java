@@ -14,8 +14,8 @@ public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstim
 	public String getRaca() {
 		return raca;
 	}
-	public void setRaca(String raça) {
-		this.raca = raça;
+	public void setRaca(String raca) {
+		this.raca = raca;
 	}
 	@Override
 	public void amamentar() {
